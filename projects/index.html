@@ -2,15 +2,16 @@
 <html lang="en">
 
     <head><title>Projects &ndash; Aayush Gupta</title>
-<meta name="description" content="Software Engineer at Flipkart.
-Learning about Distributed Systems, Databases, and other fun stuff.">
+<meta name="description" content="CS Grad @ CU Boulder.
+SWE Intern @ NetApp.
+Passionate about Distributed Systems, AI/ML Infrastructure, and High-Performance Computing.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8"/>
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,14 +27,25 @@ Learning about Distributed Systems, Databases, and other fun stuff.">
 
 
 
-</head>
+
+
+
+
+
+<meta property="og:title" content="Projects &ndash; Aayush Gupta" />
+<meta property="og:url" content="https://aayushgupta.dev/projects/" />
+
+  <meta property="og:description" content="Projects Showcase &ndash; "/> 
+
+<meta property="og:locale" content="en-us" />
+<meta property="og:image" content="https://aayushgupta.dev/images/apple-svgrepo-com.svg" /></head>
 
     <body>
         <div class="page">
 
             <header class="page__header"><nav class="page__nav main-nav">
     <ul>
-    <h1 class="page__logo"><a href="https://aayushgupta.dev/" class="page__logo-inner">Aayush Gupta</a></h1>
+      <li class="nomarker"><h1 class="page__logo"><a href="https://aayushgupta.dev/" class="page__logo-inner">Aayush Gupta</a></h1></li>
     
     
     <li class="main-nav__item"><a class="nav-main-item" href="https://aayushgupta.dev/work/" title="">Work</a></li>
@@ -41,8 +53,6 @@ Learning about Distributed Systems, Databases, and other fun stuff.">
     <li class="main-nav__item"><a class="nav-main-item" href="https://aayushgupta.dev/oss/" title="">OSS</a></li>
     
     <li class="main-nav__item"><a class="nav-main-item active" href="https://aayushgupta.dev/projects/" title="">Projects</a></li>
-    
-    <li class="main-nav__item"><a class="nav-main-item" href="https://aayushgupta.dev/post/" title="Posts">Posts</a></li>
     
     </ul>
 </nav>
@@ -55,12 +65,12 @@ Learning about Distributed Systems, Databases, and other fun stuff.">
     </header>
     <div class="content__body">
         <hr>
-<h2 id="wcgo---a-gnu-wc-clone-in-gohttpsgithubcomaayustark007wcgo"><a href="https://github.com/AayuStark007/wcgo">wcgo - A GNU wc clone in Go</a></h2>
+<h2 id="wcgo---a-gnu-wc-clone-in-go"><a href="https://github.com/AayuStark007/wcgo">wcgo - A GNU wc clone in Go</a></h2>
 <p><br/><code>wcgo</code> is a Go implementation of the classic <code>wc</code> (word count) command-line tool, providing a fast and efficient way to count words, lines, and characters in text files. The aim is to offer functionality similar to wc while utilizing Go&rsquo;s language features and concurrency model to get some extra performance.</p>
-<h2 id="kix---dynamic-interpreted-language-in-kotlinhttpsgithubcomaayustark007kix"><a href="https://github.com/AayuStark007/kix">kix - Dynamic, Interpreted language in Kotlin</a></h2>
+<h2 id="kix---dynamic-interpreted-language-in-kotlin"><a href="https://github.com/AayuStark007/kix">kix - Dynamic, Interpreted language in Kotlin</a></h2>
 <p><br/>Following the Crafting Interpreters book, I created my own programming language implemented in Kotlin. Handwritten lexer and parser based on my own grammar which is used to generate the Abstract-Syntax-Tree (AST). Using the visitor pattern, the tree can be traversed to evaluate the program.</p>
 <p>This is still a work in progress, future roadmap is to 1) parse the AST to generate custom Bytecode, and 2) incorporate a type-system via Hindley-Milner type inference.</p>
-<h2 id="simple-fast-and-practical-non-blocking-and-blocking-concurrent-queue-algorithmshttpsgithubcomaayustark007concurrent_ds_and_algo"><a href="https://github.com/AayuStark007/concurrent_ds_and_algo">Simple, Fast, and Practical Non-Blocking and Blocking Concurrent Queue Algorithms</a></h2>
+<h2 id="simple-fast-and-practical-non-blocking-and-blocking-concurrent-queue-algorithms"><a href="https://github.com/AayuStark007/concurrent_ds_and_algo">Simple, Fast, and Practical Non-Blocking and Blocking Concurrent Queue Algorithms</a></h2>
 <p><br/>Go implementation of blocking and non-blocking concurrent queues as described in the paper by <a href="https://www.cs.rochester.edu/~scott/papers/1996_PODC_queues.pdf">Michael &amp; Scott</a></p>
 <p>Used the implemented algorithms to model my own <code>Buffered Channel</code> implementation.</p>
 <p>The paper describes the following two Concurrent Queue Algorithms:</p>
@@ -68,7 +78,7 @@ Learning about Distributed Systems, Databases, and other fun stuff.">
 <li><strong>Non-Blocking Concurrent Queue:</strong> A simple, non-blocking, practical and fast concurrent queue algorithm which utilizes the universal atomic primitives like compare_and_swap (load_linked/store_conditional in ARM like processors) which is commonly provided by all hardware today.</li>
 <li><strong>Blocking Queue:</strong> A queue with separate head and tail pointer locks which allows only one enqueue and one dequeue to proceed at a time. It is recommended to use with hardware which only provides simple atomic primitives like test_and_set. However, the paper recommends using a single-lock version in case there are only 1-2 contending processes.</li>
 </ul>
-<h2 id="overlord---garden-monitoring-over-the-internethttpsgithubcomaayustark007overlord"><a href="https://github.com/AayuStark007/overlord">Overlord - Garden Monitoring over the Internet</a></h2>
+<h2 id="overlord---garden-monitoring-over-the-internet"><a href="https://github.com/AayuStark007/overlord">Overlord - Garden Monitoring over the Internet</a></h2>
 <p><br/>While leaving for home, as the COVID lockdowns kicked in, I wanted to keep an eye out on my plants. I used a Raspberry Pi 3rd gen, which I had lying around, along with Pi Camera V2, to set a hardware rig to record and stream the video stream to my digital ocean instance. I configured a private subdomain using certificate-based authentication to ensure the feed was invisible to anyone else.</p>
 <p>Streaming Setup:<br/>
 Python script runs as a Systemd unit on the Pi. The script captures video frames from the camera and pushes them to a Zero MQ broker running on the cloud instance. The script periodically pulls the latest version and configurations to support any config changes I push remotely.
@@ -87,10 +97,12 @@ The content is consumed from the broker and buffered by another process, which s
             <section class="page__aside">
                 <div class="aside__about">
 <div class="aside__about">
+    
     <img class="about__logo" src="https://aayushgupta.dev/images/apple-svgrepo-com.svg" alt="Logo">
 <h1 class="about__title">Aayush Gupta</h1>
-<p class="about__description">Software Engineer at Flipkart.
-Learning about Distributed Systems, Databases, and other fun stuff.</p>
+<p class="about__description">CS Grad @ CU Boulder.
+SWE Intern @ NetApp.
+Passionate about Distributed Systems, AI/ML Infrastructure, and High-Performance Computing.</p>
 </div>
 
 
@@ -124,10 +136,10 @@ Learning about Distributed Systems, Databases, and other fun stuff.</p>
 	    On this page:
 	    <nav id="TableOfContents">
   <ol>
-    <li><a href="#wcgo---a-gnu-wc-clone-in-gohttpsgithubcomaayustark007wcgo"><a href="https://github.com/AayuStark007/wcgo">wcgo - A GNU wc clone in Go</a></a></li>
-    <li><a href="#kix---dynamic-interpreted-language-in-kotlinhttpsgithubcomaayustark007kix"><a href="https://github.com/AayuStark007/kix">kix - Dynamic, Interpreted language in Kotlin</a></a></li>
-    <li><a href="#simple-fast-and-practical-non-blocking-and-blocking-concurrent-queue-algorithmshttpsgithubcomaayustark007concurrent_ds_and_algo"><a href="https://github.com/AayuStark007/concurrent_ds_and_algo">Simple, Fast, and Practical Non-Blocking and Blocking Concurrent Queue Algorithms</a></a></li>
-    <li><a href="#overlord---garden-monitoring-over-the-internethttpsgithubcomaayustark007overlord"><a href="https://github.com/AayuStark007/overlord">Overlord - Garden Monitoring over the Internet</a></a></li>
+    <li><a href="#wcgo---a-gnu-wc-clone-in-go">wcgo - A GNU wc clone in Go</a></li>
+    <li><a href="#kix---dynamic-interpreted-language-in-kotlin">kix - Dynamic, Interpreted language in Kotlin</a></li>
+    <li><a href="#simple-fast-and-practical-non-blocking-and-blocking-concurrent-queue-algorithms">Simple, Fast, and Practical Non-Blocking and Blocking Concurrent Queue Algorithms</a></li>
+    <li><a href="#overlord---garden-monitoring-over-the-internet">Overlord - Garden Monitoring over the Internet</a></li>
     <li><a href="#aayushguptadev---self-hosting-for-my-projects">aayushgupta.dev - Self-Hosting for my projects</a></li>
     <li><a href="#reinforcement-learning-on-aldebaran-nao-robot">Reinforcement Learning on Aldebaran NAO Robot</a></li>
     <li><a href="#moven-match---an-exer-learning-tool-powered-by-2d-pose-estimation">Move&rsquo;N Match - An Exer-Learning tool powered by 2D Pose Estimation</a></li>
@@ -154,13 +166,22 @@ Learning about Distributed Systems, Databases, and other fun stuff.</p>
         
       
     
+    
+    
       
-    
-    
+      
+          
+            
+            
+                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
+
+            
+          
+      
     
 </p>
 <br /><br />
-<p class="copyright">© 2024 <a href="https://aayushgupta.dev">Aayush Gupta</a></p>
+<p class="copyright">© 2026 <a href="https://aayushgupta.dev">Aayush Gupta</a></p>
 <p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
 </footer>
 

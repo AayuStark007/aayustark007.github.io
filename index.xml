@@ -4,9 +4,10 @@
     <title>Aayush Gupta</title>
     <link>https://aayushgupta.dev/</link>
     <description>Recent content on Aayush Gupta</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© 2024 [Aayush Gupta](https://aayushgupta.dev)</copyright>
+    <copyright>© 2026 [Aayush Gupta](https://aayushgupta.dev)</copyright>
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://aayushgupta.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -20,28 +21,21 @@
       <link>https://aayushgupta.dev/work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://aayushgupta.dev/work/</guid>
-      <description>Work Software Engineer 2 Flipkart Internet Pvt. Ltd, Bengaluru India October 2022 - Present
-Monetization: Supported enhancements to the Rewards and Gamification systems for improved monetization potential.
-Undertook initiatives to improve the Resiliency and Fault Tolerance of the systems though signalling and auto-recovery mechanisms.
-Wrote detailed SOPs and RunBooks for handling database and application maintenance activities. Automated most of these workflows which reduced the frquency of downtimes due to human error and faster Mean-Time-To-Recovery (MTTR) from production incidents.</description>
+      <description>&lt;h2 id=&#34;work&#34;&gt;Work&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Software Engineer 2&lt;/strong&gt;&#xA;&lt;br/&gt;&lt;em&gt;Flipkart Internet Pvt. Ltd, Bengaluru India&lt;/em&gt;&#xA;&lt;br/&gt;&lt;em&gt;October 2022 - Present&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Monetization:&lt;/strong&gt; Supported enhancements to the Rewards and Gamification systems for improved monetization potential.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Undertook initiatives to improve the Resiliency and Fault Tolerance of the systems though signalling and auto-recovery mechanisms.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wrote detailed SOPs and RunBooks for handling database and application maintenance activities. Automated most of these workflows which reduced the frquency of downtimes due to human error and faster Mean-Time-To-Recovery (MTTR) from production incidents.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Open Source Contributions</title>
       <link>https://aayushgupta.dev/oss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://aayushgupta.dev/oss/</guid>
-      <description>Varadhi - A message bus implementation with a REST Interface Involved in the effort to open-source our in-house Kafka-based REST-Bus platform. Rebuilding from scratch as a cloud-native offering supporting multiple message bus implementations like Kakfa, Pulsar, and Google Cloud Pub-Sub.
-Contributions
-Evaluated Zookeeper as a metadata storage by benchmarking the performance of creation and access of large number of znodes.
-Published the evaluation report and recommended hardware specifications for utilizing Zookeeper as a metadata store for Varadhi.</description>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;varadhi---a-message-bus-implementation-with-a-rest-interface&#34;&gt;&lt;a href=&#34;https://github.com/flipkart-incubator/varadhi&#34;&gt;Varadhi - A message bus implementation with a REST Interface&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;br/&gt;Involved in the effort to open-source our in-house Kafka-based REST-Bus platform. Rebuilding from scratch as a cloud-native offering supporting multiple message bus implementations like Kakfa, Pulsar, and Google Cloud Pub-Sub.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Contributions&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Evaluated Zookeeper as a metadata storage by benchmarking the performance of creation and access of large number of znodes.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/flipkart-incubator/varadhi/blob/master/scripts/benchmark/results/RESULT.md&#34;&gt;Published&lt;/a&gt; the evaluation report and recommended hardware specifications for utilizing Zookeeper as a metadata store for Varadhi.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Projects</title>
       <link>https://aayushgupta.dev/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://aayushgupta.dev/projects/</guid>
-      <description>wcgo - A GNU wc clone in Go wcgo is a Go implementation of the classic wc (word count) command-line tool, providing a fast and efficient way to count words, lines, and characters in text files. The aim is to offer functionality similar to wc while utilizing Go&amp;rsquo;s language features and concurrency model to get some extra performance.
-kix - Dynamic, Interpreted language in Kotlin Following the Crafting Interpreters book, I created my own programming language implemented in Kotlin.</description>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;wcgo---a-gnu-wc-clone-in-go&#34;&gt;&lt;a href=&#34;https://github.com/AayuStark007/wcgo&#34;&gt;wcgo - A GNU wc clone in Go&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;br/&gt;&lt;code&gt;wcgo&lt;/code&gt; is a Go implementation of the classic &lt;code&gt;wc&lt;/code&gt; (word count) command-line tool, providing a fast and efficient way to count words, lines, and characters in text files. The aim is to offer functionality similar to wc while utilizing Go&amp;rsquo;s language features and concurrency model to get some extra performance.&lt;/p&gt;&#xA;&lt;h2 id=&#34;kix---dynamic-interpreted-language-in-kotlin&#34;&gt;&lt;a href=&#34;https://github.com/AayuStark007/kix&#34;&gt;kix - Dynamic, Interpreted language in Kotlin&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;br/&gt;Following the Crafting Interpreters book, I created my own programming language implemented in Kotlin. Handwritten lexer and parser based on my own grammar which is used to generate the Abstract-Syntax-Tree (AST). Using the visitor pattern, the tree can be traversed to evaluate the program.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
